@@ -20,7 +20,7 @@ class MainViexpo extends Component {
     render() {
         return (
             <div className="active-dark">
-                <Helmet pageTitle="Интерактивная платформа ViExpo" />
+                <Helmet pageTitle="Интерактивная платформа Voltep.Online" />
                 <HeaderVoltep2 homeLink="/" logo="symbol-dark" color="color-black"/>
 
                 {/* Start Video Area  */}
@@ -31,7 +31,7 @@ class MainViexpo extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center mb--30">
-                                        <h2>ViExpo</h2>
+                                        <h2>Voltep.Online</h2>
                                         <p>Платформа для проведения интерактивных мероприятий</p>
                                     </div>
                                 </div>
@@ -44,8 +44,8 @@ class MainViexpo extends Component {
                         <div className="row sercice-details-content align-items-center">
                             <div className="col-lg-12">
                                 <div className="thumb position-relative">
-                                    <img className="w-100" src="/assets/images/video/viexpo-big-01.jpg" alt="Video Viexpo" />
-                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='6gJejjLxWns' onClose={() => this.setState({ isOpen: false })} />
+                                    <img className="w-100" src="/assets/images/video/voltep-online-bg.png" alt="Video Voltep.Online" />
+                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='xdkFXK2ZIks' onClose={() => this.setState({ isOpen: false })} />
                                     <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ class MainViexpo extends Component {
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title">О платформе</h2>
-                                        <p>ViExpo предоставляет компаниям возможность проводить мероприятия в виртуальном пространстве.</p>
+                                        <p>Voltep.Online предоставляет компаниям возможность проводить мероприятия в виртуальном пространстве.</p>
                                         <p>Платформа позволяет проводить выставки, конференции, корпоративы, викторины, ярмарки, онлайн-экскурсии, показы строительных проектов, осмотры прототипов и другие мероприятия, проходящие в режиме реального времени.</p>
                                     </div>
                                 </div>
@@ -220,13 +220,13 @@ class MainViexpo extends Component {
                                             <div className="col-lg-6 col-12 order-2 order-lg-1">
                                                 <div className="details mt_md--30 mt_sm--30">
                                                     <h2 className="title">О платформе</h2>
-                                                    <p>ViExpo предоставляет компаниям возможность проводить мероприятия в виртуальном пространстве.</p>
+                                                    <p>Voltep.Online предоставляет компаниям возможность проводить мероприятия в виртуальном пространстве.</p>
                                                     <p>Платформа позволяет проводить выставки, конференции, корпоративы, викторины, ярмарки, онлайн-экскурсии, показы строительных проектов, осмотры прототипов и другие мероприятия, проходящие в режиме реального времени.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/projects/viexpo/ind-viexpo.png" alt="About Images" />
+                                                    <img className="w-100" src="https://cdn.viexpo.ru/viexpo-webgl/media/voltep-isometric.png" alt="About Images" />
                                                     {/* <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
                                                     <button className="video-popup" onClick={this.openModal}><span className="play-icon"></span></button> */}
                                                 </div>
@@ -277,7 +277,7 @@ class MainViexpo extends Component {
                                                         <li>статистика</li>
                                                     </ul>
                                                     <div className="about-button mt--50">
-                                                        <a className="rn-button-style--2 btn-solid" href="http://viexpo.ru/">Подробней на сайте</a>
+                                                        <a className="rn-button-style--2 btn-solid" href="https://voltep.online/">Подробней на сайте</a>
                                                     </div>
                                                 </div>
                                             </div>

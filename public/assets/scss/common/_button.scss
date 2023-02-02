@@ -82,6 +82,11 @@ a {
         @media #{$sm-layout} {
             padding: 9px 25px;
         }
+        @media #{$small-mobile} {
+            padding: 6px 6px;
+            font-size: 8px;
+            white-space: nowrap;
+        }
         &.rn-btn-dark {
             border: 2px solid #1f1f25;
             color: #1f1f25;

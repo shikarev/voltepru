@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import {FaWhatsapp , FaTelegramPlane , FaPhoneAlt } from "react-icons/fa";
+import {FaWhatsapp , FaTelegramPlane  } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaWhatsapp /> , link: 'https://wa.me/79161201088/' , text: '/WHATSAPP'},
-    {Social: <FaTelegramPlane /> , link: 'https://t.me/ivan_teplov', text: '/TELEGRAMM'},
-    {Social: <FaPhoneAlt /> , link: 'tel:+79161201088', text: '/TELEGRAMM'},
+    {Social: <FaWhatsapp /> , link: 'https://wa.me/79309400515/' , text: '/WHATSAPP'},
+    {Social: <FaTelegramPlane /> , link: 'https://t.me/VOLTEPbot/', text: '/TELEGRAMM'},
+    /*{Social: <FaPhoneAlt /> , link: 'tel:+79161201088', text: '/TELEGRAMM'},*/
 ]
 class HeaderVoltep2 extends Component{
     constructor(props) {
@@ -83,6 +83,11 @@ class HeaderVoltep2 extends Component{
                                 <li><a href="/contacts">Контакты</a></li>
                             </Scrollspy>
                         </nav>
+                    </div>
+                    <div>
+                        <a href="https://voltep.online/">
+                            <button className="rn-button-style--2 btn-outline">Voltep.Online</button>
+                        </a>
                     </div>
                     <div className="header-right">
                         <div className="social-share-inner">

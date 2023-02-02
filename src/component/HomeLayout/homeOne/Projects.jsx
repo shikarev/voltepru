@@ -7,8 +7,8 @@ const list = [
     {
         image: 'image-1',
         category: 'Интерактивная платформа',
-        title: 'ViExpo',
-        link: '/viexpo'
+        title: 'Voltep.Online',
+        link: '/voltep-online'
     },
     {
         image: 'image-2',

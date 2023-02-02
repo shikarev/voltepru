@@ -96,7 +96,7 @@ class Root extends Component{
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/contacts`} component={Contacts}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/viexpo`} component={MainViexpo}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/voltep-online`} component={MainViexpo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/mapvis`} component={MainMapvis}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/trenazhernie-sistemy`} component={MainTrenazher}/>
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/> */}

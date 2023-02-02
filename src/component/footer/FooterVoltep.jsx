@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import {FaWhatsapp , FaTelegramPlane } from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaWhatsapp /> , link: 'https://wa.me/79161201088/' , text: '/WHATSAPP'},
-    {Social: <FaTelegramPlane /> , link: 'https://t.me/ivan_teplov', text: '/TELEGRAMM'},
+    {Social: <FaWhatsapp /> , link: 'https://wa.me/79309400515/' , text: '/WHATSAPP'},
+    {Social: <FaTelegramPlane /> , link: 'https://t.me/VOLTEPbot/', text: '/TELEGRAMM'},
 
 ]
 class Footer extends Component{
@@ -61,7 +61,7 @@ class Footer extends Component{
                                         <div className="col-lg-12 pt--40"><a href="https://navigator.sk.ru/orn/1123672" target="_blank" rel="noopener noreferrer"><img width='100px' src="/assets/images/brand/sk-resident-1.png" alt="Logo Skolkovo"/></a></div>
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright 2020 Voltep.ru — Современные IT-Решения</p>
+                                                <p>Copyright 2023 Voltep.ru — Современные IT-Решения</p>
                                             </div>
                                         </div>
                                     </div>
